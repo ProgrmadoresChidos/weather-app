@@ -1,4 +1,5 @@
 import React from 'react';
+import { Percentage } from '../percentage/Percentage';
 import style from './Highlight.module.css';
 import { HighlightItem } from './HighlightItem'
 
@@ -11,7 +12,7 @@ export const Highlight = () => {
         </div>
         <div className={style.highlight__weather}>
           <HighlightItem >
-
+            <Percentage />
           </HighlightItem>
         </div>
       </div>

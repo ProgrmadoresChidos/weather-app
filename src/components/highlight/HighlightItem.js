@@ -10,8 +10,7 @@ export const HighlightItem = ({ children }) => {
         </div>
         <div className={style.highlightItem__measure}>
           <h2 className={style.highlightItem__number}>7mph</h2>
-          itemasd
-                {children}
+          {children}
         </div>
       </div>
     </div>
