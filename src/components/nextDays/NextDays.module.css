@@ -1,0 +1,33 @@
+.nextDays * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nextDays {
+  background-color: #100E1D;
+  height: 50vh;
+  padding: 52px 54px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.day {
+  background-color: #1E213A;
+  width: 120px;
+  /* height: 177px; */
+  height: 100px;
+  padding: 18px 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #E7E7EB;
+}
+
+.tempWrapper {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+}

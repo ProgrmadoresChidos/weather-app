@@ -1,0 +1,48 @@
+.highlight {
+  background: #100e1d;
+  color: rgba(231, 231, 235, 1);
+  box-sizing: border-box;
+}
+.highlight__container {
+  padding: 23px;
+}
+.highlight__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #e7e7eb;
+}
+.highlight__header {
+  margin-bottom: 32px;
+}
+
+/*ITEMS*/
+.highlightItem {
+  background-color: rgba(30, 33, 58, 1);
+  max-width: 328px;
+  max-height: 204px;
+}
+.highlightItem__container {
+  text-align: center;
+  padding-top: 22px;
+}
+.highlightItem__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* identical to box height */
+}
+.highlightItem__number {
+    margin: ;
+    font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+
+  color: #e7e7eb;
+}
