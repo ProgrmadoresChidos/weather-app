@@ -13,7 +13,7 @@ export const Highlight = () => {
         <div className={style.highlight__weather}>
           <HighlightItem title="Wind Status" value={765} unit="mph" >
             <div className={style.wind}>
-              <i class="material-icons">toys</i>
+              <i className="material-icons">toys</i>
               <p>WSW</p>
             </div>
           </HighlightItem>
