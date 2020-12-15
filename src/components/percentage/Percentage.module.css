@@ -1,13 +1,37 @@
-.whiteRectangle {
-    position: absolute;
-    height: 8px;
-    background: white;
-    border-radius: 80px;
+.percentage__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.percentage {
+  position: relative;
+  top: -25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 229px;
+}
+.percentage__numbers {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: #a09fb1;
 }
 
-.yellowRectangle{
-    position: absolute;
-    height: 8px;
-    background: yellow;
-    border-radius: 80px;
+.whiteRectangle {
+  width: 100%;
+  /* position: absolute; */
+  height: 8px;
+  background: white;
+  border-radius: 80px;
+  /* width: 229px; */
+}
+
+.yellowRectangle {
+  position: absolute;
+  height: 8px;
+  background: yellow;
+  border-radius: 80px;
 }
