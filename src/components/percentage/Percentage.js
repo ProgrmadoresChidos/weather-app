@@ -10,7 +10,7 @@ export const Percentage = ({ percentage }) => {
             <div className={`${style.stylenumbers} ${style.positionFifty100}`}>100</div>
             <div className={style.whiteRectangle}>
                 <div className={style.yellowRectangle} style={{
-                    width: (percentage * 100) / 229
+                    width: (percentage)
                 }}>
                 </div>
             </div>

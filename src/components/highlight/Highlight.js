@@ -18,7 +18,7 @@ export const Highlight = () => {
             </div>
           </HighlightItem>
           <HighlightItem title="humidity" value={84} unit="%" >
-            <Percentage percentage={84} />
+            <Percentage percentage={90} />
           </HighlightItem>
           <HighlightItem title="visibility" value={6.4} unit="miles" />
           <HighlightItem title="air pressure" value={998} unit="mb" />
