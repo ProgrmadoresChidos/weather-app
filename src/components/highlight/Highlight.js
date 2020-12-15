@@ -11,9 +11,17 @@ export const Highlight = () => {
           <h1 className={style.highlight__title}>Today's Highlights</h1>
         </div>
         <div className={style.highlight__weather}>
-          <HighlightItem >
-            <Percentage />
+          <HighlightItem title="Wind Status" value={765} unit="mph" >
+            <div className={style.wind}>
+              <i class="material-icons">toys</i>
+              <p>WSW</p>
+            </div>
           </HighlightItem>
+          <HighlightItem title="humidity" value={84} unit="%" >
+            <Percentage percentage={84} />
+          </HighlightItem>
+          <HighlightItem title="visibility" value={6.4} unit="miles" />
+          <HighlightItem title="air pressure" value={998} unit="mb" />
         </div>
       </div>
     </section>
