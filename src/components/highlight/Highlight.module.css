@@ -40,7 +40,7 @@
   font-size: 16px;
   line-height: 19px;
 }
-.highlightItem__measure{
+.highlightItem__measure {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,11 +56,29 @@
   line-height: 75px;
   color: #e7e7eb;
 }
-.highlightItem__unit{
+.highlightItem__unit {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
   line-height: 75px;
   color: #e7e7eb;
+}
+
+.wind {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+  top: -20px;
+}
+.wind p {
+  margin: 10px;
+}
+.wind i {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 1px;
+  border-radius: 50%;
+  transform: rotate(-50deg);
 }
