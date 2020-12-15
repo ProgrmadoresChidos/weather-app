@@ -6,7 +6,7 @@
 
 .nextDays {
   background-color: #100E1D;
-  height: 50vh;
+  height: 100vh;
   padding: 52px 54px;
   display: flex;
   justify-content: space-between;
@@ -16,18 +16,25 @@
 .day {
   background-color: #1E213A;
   width: 120px;
-  /* height: 177px; */
-  height: 100px;
-  padding: 18px 22px;
+  height: 177px;
+  padding: 18px 15px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   color: #E7E7EB;
+  font-family: 'Raleway', 'sans-serif';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 .tempWrapper {
   align-self: stretch;
   display: flex;
   justify-content: space-between;
+}
+
+.minTemp {
+  color: #A09FB1;
 }
