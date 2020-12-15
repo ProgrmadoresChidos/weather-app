@@ -23,20 +23,29 @@
   background-color: rgba(30, 33, 58, 1);
   max-width: 328px;
   max-height: 204px;
+  margin-bottom: 32px;
+  box-sizing: border-box;
 }
 .highlightItem__container {
   text-align: center;
   padding-top: 22px;
+  box-sizing: border-box;
 }
 .highlightItem__title {
+  text-transform: capitalize;
   margin: 0px;
   font-family: Raleway;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-
-  /* identical to box height */
+}
+.highlightItem__measure{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6px 0px 0px 0px;
+  padding-bottom: 32px;
 }
 .highlightItem__number {
   margin: 0px;
@@ -45,6 +54,13 @@
   font-weight: bold;
   font-size: 64px;
   line-height: 75px;
-
+  color: #e7e7eb;
+}
+.highlightItem__unit{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 75px;
   color: #e7e7eb;
 }

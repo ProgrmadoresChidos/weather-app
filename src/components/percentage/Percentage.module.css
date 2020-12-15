@@ -1,0 +1,13 @@
+.whiteRectangle {
+    position: absolute;
+    height: 8px;
+    background: white;
+    border-radius: 80px;
+}
+
+.yellowRectangle{
+    position: absolute;
+    height: 8px;
+    background: yellow;
+    border-radius: 80px;
+}
