@@ -38,3 +38,9 @@
 .minTemp {
   color: #A09FB1;
 }
+
+@media only screen and (min-width: 600px) {
+  .nextDays {
+    height: auto;
+  }
+}
