@@ -22,6 +22,8 @@
 .highlightItem {
   background-color: rgba(30, 33, 58, 1);
   max-width: 328px;
+  min-width: 328px;
+  min-height: 204px;
   max-height: 204px;
   margin-bottom: 32px;
   box-sizing: border-box;
@@ -31,6 +33,7 @@
   padding-top: 22px;
   box-sizing: border-box;
 }
+
 .highlightItem__title {
   text-transform: capitalize;
   margin: 0px;
@@ -80,4 +83,20 @@
   padding: 1px;
   border-radius: 50%;
   transform: rotate(-50deg);
+}
+
+@media only screen and (min-width: 600px) {
+  .highlightItem{
+    margin: 10px;
+  }
+  .highlight__weather{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    /* margin: 32px; */
+  }
 }

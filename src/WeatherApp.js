@@ -1,15 +1,23 @@
 import React from 'react'
+import style from './WeatherApp.module.css';
 import { Highlight } from './components/highlight/Highlight'
 import { NextDays } from './components/nextDays/NextDays'
 import { Search } from './components/search/Search'
 
 export const WeatherApp = () => {
     return (
-        <div>
-            Weather works!!!
-            <Search />
-            <NextDays />
-            <Highlight />
+        <div className={style.weatherApp__container}>
+            <div className={style.weatherApp}>
+                {/* <div className={style.weatherApp__container}>
+            </div> */}
+                <div className={style.weatherApp__sidebar}>
+                    component
+            </div>
+                <div className={style.weatherApp__content}>
+                    <NextDays />
+                    <Highlight />
+                </div>
+            </div>
         </div>
     )
 }
