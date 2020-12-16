@@ -2,6 +2,7 @@ import React from 'react'
 import style from './WeatherApp.module.css';
 import { Highlight } from './components/highlight/Highlight'
 import { NextDays } from './components/nextDays/NextDays'
+import { MainWeather } from './components/mainWeather/MainWeather'
 import { Search } from './components/search/Search'
 
 export const WeatherApp = () => {
@@ -11,8 +12,8 @@ export const WeatherApp = () => {
                 {/* <div className={style.weatherApp__container}>
             </div> */}
                 <div className={style.weatherApp__sidebar}>
-                    component
-            </div>
+                    <MainWeather />
+                </div>
                 <div className={style.weatherApp__content}>
                     <NextDays />
                     <Highlight />

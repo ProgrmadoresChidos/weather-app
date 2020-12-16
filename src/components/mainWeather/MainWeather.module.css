@@ -1,0 +1,70 @@
+.city{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #88869D;
+    margin-top: 30px;
+}
+
+.date{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #88869D;
+}
+
+.shower{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #A09FB1;
+    margin: 0px 0px 48px 0px;
+}
+
+.degrees h2{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 114px;
+    line-height: 39px;
+}
+
+.degrees{
+    color: #E7E7EB;
+}
+
+.container{
+    position: relative;
+    background: #1E213A;
+    justify-content: center;
+    align-items: center;
+    height: 810px;
+    display: flex;
+    flex-direction: column;
+    font-family: Raleway;
+}
+
+.sunny{
+    position: relative;
+    width: 150px;
+    height: 174px;
+    background-size: cover;
+}
+
+.clouds{
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 348px;
+    opacity: 0.2;
+    top: 30px;
+}
