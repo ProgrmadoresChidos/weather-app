@@ -5,8 +5,9 @@ import { NextDays } from './components/nextDays/NextDays'
 
 export const WeatherApp = () => {
     return (
-        <div className={style.weatherApp}>
-            {/* <div className={style.weatherApp__container}>
+        <div className={style.weatherApp__container}>
+            <div className={style.weatherApp}>
+                {/* <div className={style.weatherApp__container}>
             </div> */}
                 <div className={style.weatherApp__sidebar}>
                     component
@@ -15,6 +16,7 @@ export const WeatherApp = () => {
                     <NextDays />
                     <Highlight />
                 </div>
+            </div>
         </div>
     )
 }
