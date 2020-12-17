@@ -3,7 +3,6 @@ import style from './WeatherApp.module.css';
 import { Highlight } from './components/highlight/Highlight'
 import { NextDays } from './components/nextDays/NextDays'
 import { MainWeather } from './components/mainWeather/MainWeather'
-import { Search } from './components/search/Search'
 
 export const WeatherApp = () => {
     return (

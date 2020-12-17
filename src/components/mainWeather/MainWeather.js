@@ -1,13 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import style from './MainWeather.module.css';
 // import PropTypes from 'prop-types';
+import { Search } from '../search/Search';
 
 const sunny = '../assets/images/Shower.png';
 const clouds = '../assets/images/Cloud-background.png';
 export const MainWeather = () => {
 
+    const [showSearch, setShowSearch] = useState(false);
+
     const searchPlaces = () => {
-        console.log('Search for places');
+        setShowSearch(true);
+    }
+    const closeSearchPlaces = () => {
+        setShowSearch(false);
     }
     const currentLocation = () => {
         console.log('Current location');
@@ -16,6 +22,11 @@ export const MainWeather = () => {
     return (
 
         <div className={style.container}>
+            {
+                showSearch ?
+                    <Search handleClose={closeSearchPlaces} />
+                    : null
+            }
             <div className={style.mainWeather__form}>
                 <button onClick={searchPlaces}>Search for places</button>
                 <div className={style.mainWeather__icon} onClick={currentLocation}>
